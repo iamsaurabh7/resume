@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,700;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fasthand&display=swap");
+@font-face {
+  font-family: BestermindRegular;
+  src: url(BestermindRegular.ttf);
+}
+@import url("https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css");
+
+*body {
+  background-color: rgb(33, 33, 33);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: rgb(84, 95, 196);
+  color: white;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.sign h1 {
+  color: rgb(255, 255, 255);
+  font-family: "BestermindRegular";
+  font-size: 31px;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  height: 80px;
+  color: aliceblue;
+}
+
+nav ul li {
+  padding: 0px 22px;
+  margin: 30px;
+}
+.dropdown ul li a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.dropdown ul li {
+  display: flex;
+  position: relative;
+  background-color: rgb(93, 104, 180);
+  height: 40px;
+  align-items: center;
+  border-radius: 50px;
+}
+
+.portfolio img {
+  width: 170px;
+  border-radius: 50%;
+  align-items: inherit;
+}
+
+.portfolio {
+  display: flex;
+  align-items: inherit;
+}
+
+.handwave {
+  height: 80px;
+}
+
+.container {
+  background-color: rgb(84, 95, 196);
+}
+
+.topname {
+  color: antiquewhite;
+  align-items: center;
+  font-family: "Varela Round", sans-serif;
+}
+
+.mypic img {
+  border-radius: 50%;
+  height: 270px;
+}
+
+.typewriter h1 {
+  align-items: center;
+  color: rgb(255, 255, 255);
+  background-color: rgb(33, 33, 33);
+  font-family: monospace;
+  border-right: 0px;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: 0.15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: 0.15em; /* Adjust as needed */
+  animation: typing 3.5s steps(30, end), blink-caret 0.5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+  }
+}
+
+.about-body {
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: space-evenly;
+  height: fit-content;
+  margin: 0;
+  color: var(--bs-body-color);
+  text-align: var(--bs-body-text-align);
+}
+
+.about-description {
+  flex: 0.6 1;
+  box-sizing: border-box;
+  padding: 20px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  flex: 0.5 1;
+  width: 100%;
+  display: flex;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: 0;
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: var(--bs-body-font-weight);
+  line-height: var(--bs-body-line-height);
+  background-color: var(--bs-body-bg);
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.skillsContainer object{
+  padding: 30px;
+  height: 200px;
+  width: 200px;
+  align-items: center;
+  color: aliceblue;
+  text-align: center;
+}
+
+.myDiv {
+  width: 500px;
+  height: 120px;
+  border: 5px solid rgba(84, 95, 196);
+  transition: all 1s;
+  border-radius: 17%;
+}
+.subDiv {
+  text-decoration: ;
+  
+  text-align: left;
+  padding: 20px;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 25px;
+}
+.subDivv{
+  font-size: 22px;
+}
+.myDiv:hover .subDiv {
+  color: #ffffff;
+  transition: all 1s;
+}
+.myDiv:hover {
+  border: 5px solid rgb(79, 180, 113);
+}
