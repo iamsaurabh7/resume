@@ -118,6 +118,16 @@ nav ul li {
   }
 }
 
+.profileContainer{
+  background-color: rgb(33, 33, 33);
+  height: 23px;
+}
+
+.profileContainer li a{
+  text-decoration: none;
+  color: #ffffff;
+}
+
 .about-body {
   padding-top: 2rem;
   display: flex;
@@ -218,6 +228,7 @@ nav ul li {
 }
 
 .contactContainer {
+  
   display: flex;
   text-decoration: none;
   flex-direction: column;
@@ -238,7 +249,7 @@ nav ul li {
   margin-bottom: 2.5rem;
   color: rgb(84, 95, 196);
   margin-left: 1.5rem;
-  font-size: 40px;
+  font-size: 30px;
   line-height: 110%;
   font-weight: 500;
   font-family: var(--primaryFont);
