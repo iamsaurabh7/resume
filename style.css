@@ -153,7 +153,7 @@ nav ul li {
   -webkit-tap-highlight-color: transparent;
 }
 
-.skillsContainer object{
+.skillsContainer object {
   padding: 30px;
   height: 200px;
   width: 200px;
@@ -171,14 +171,14 @@ nav ul li {
 }
 .subDiv {
   text-decoration: ;
-  
+
   text-align: left;
   padding: 20px;
   cursor: pointer;
   color: #ffffff;
   font-size: 25px;
 }
-.subDivv{
+.subDivv {
   font-size: 22px;
 }
 .myDiv:hover .subDiv {
@@ -187,4 +187,78 @@ nav ul li {
 }
 .myDiv:hover {
   border: 5px solid rgb(79, 180, 113);
+}
+
+.hobbiesText {
+  color: rgba(234, 234, 234, 0.8);
+  font-size: x-large;
+  text-align: center;
+}
+
+.hobbiesContainer object {
+  padding: 30px;
+  background-color: rgb(84, 95, 196);
+  border-radius: 25px;
+  height: 200px;
+  width: 200px;
+  align-items: center;
+  text-align: center;
+}
+
+.contact {
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: space-evenly;
+  height: fit-content;
+  margin: 0;
+  color: var(--bs-body-color);
+  text-align: var(--bs-body-text-align);
+}
+
+.contactContainer {
+  display: flex;
+  text-decoration: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  flex: 0.6 1;
+  box-sizing: border-box;
+  padding-left: 7rem;
+  margin-top: 1.2rem;
+}
+.mailTo {
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  margin-bottom: 2.5rem;
+  color: rgb(84, 95, 196);
+  margin-left: 1.5rem;
+  font-size: 40px;
+  line-height: 110%;
+  font-weight: 500;
+  font-family: var(--primaryFont);
+  width: 45%;
+  word-break: break-word;
+}
+
+.footer {
+  font-family: "Varela Round", sans-serif;
+  font-size: large;
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top {
+  display: flex;
+  justify-content: flex-end;
+  align-content: flex-end;
+  box-sizing: border-box;
 }
