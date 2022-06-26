@@ -31,7 +31,6 @@ nav {
 }
 
 nav ul {
-  min-width: 80rem;
   display: flex;
   align-items: center;
   list-style-type: none;
